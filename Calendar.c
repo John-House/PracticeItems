@@ -3,7 +3,7 @@
 
 int checkInput(int y, int m, int d);
 
-/* verify user input and print error info if wrong */
+/* verify user input */
 int checkInput(int y, int m, int d) {
     if (m<0 || m>12)
         return 0;
